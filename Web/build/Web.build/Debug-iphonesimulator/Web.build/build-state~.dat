@@ -1,0 +1,258 @@
+TWeb
+v7
+r0
+t276909684.042965
+cCheck dependencies
+cProcessInfoPlistFile /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Info.plist Web-Info.plist
+cCompileXIB /Users/MatheusBrum/Desktop/Web/MainWindow.xib
+cCompileXIB /Users/MatheusBrum/Desktop/Web/WebViewController.xib
+cProcessPCH /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch.gch Web_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/main.o /Users/MatheusBrum/Desktop/Web/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebAppDelegate.o /Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebViewController.o /Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web normal i386
+cGenerateDSYMFile /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app.dSYM /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web
+cTouch /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
+c000000004AAC665500000000000000EE
+t1252812373
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A821911000000000026EE30
+t1250040081
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A765094000000000027E880
+t1249267860
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7650820000000000001355
+t1249267842
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E970000000000000788
+t1249668759
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6F5900000000016721E0
+t1249668953
+s23536096
+
+N/Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.h
+c000000004AD116D000000000000001C8
+t1255216848
+s456
+i<UIKit/UIKit.h>
+
+N/Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.m
+c000000004AD116D00000000000000257
+t1255216848
+s599
+i"WebAppDelegate.h"
+i"WebViewController.h"
+
+N/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.h
+c000000004AD116F2000000000000013B
+t1255216882
+s315
+i<UIKit/UIKit.h>
+
+N/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m
+c000000004AD116D000000000000005A8
+t1255216848
+s1448
+i"WebViewController.h"
+
+N/Users/MatheusBrum/Desktop/Web/MainWindow.xib
+c000000004AD116D00000000000002422
+t1255216848
+s9250
+
+N/Users/MatheusBrum/Desktop/Web/WebViewController.xib
+c000000004AD116D000000000000018CB
+t1255216848
+s6347
+
+N/Users/MatheusBrum/Desktop/Web/Web_Prefix.pch
+c000000004AD116D000000000000000AF
+t1255216848
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app
+t1255216884
+s238
+
+N/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app.dSYM
+t1255216884
+s102
+
+N/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Info.plist
+t1255216883
+s546
+
+N/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/MainWindow.nib
+t1255216883
+s1096
+
+N/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/PkgInfo
+t1255216883
+s8
+
+N/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web
+t1255216884
+s19216
+
+N/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/WebViewController.nib
+t1255216883
+s800
+
+N/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/Web.LinkFileList
+c000000004AD116F30000000000000155
+t1255216883
+s341
+
+N/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebAppDelegate.o
+t1255216883
+s38088
+
+N/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebViewController.o
+t1255216884
+s30252
+
+N/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/main.o
+t1255216883
+s5928
+
+N/Users/MatheusBrum/Desktop/Web/main.m
+c000000004AD116D00000000000000166
+t1255216848
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch.gch
+t1255216883
+s13034960
+
+NWeb-Info.plist
+c000000004AD116D0000000000000038D
+t1255216848
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies276909683#276909683#0(0"0(0#1#0"2416090432#0"0#
+
+CCompileC build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebAppDelegate.o /Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276909683.927748
+e276909683.988594
+r1
+xCompileC
+xbuild/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebAppDelegate.o
+x/Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.m276909683#276909683#0(0"0(0#0#55"/Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.m2416090432#1717"    cd /Users/MatheusBrum/Desktop/Web    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-generated-files.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-project-headers.hmap -F/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources -include /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch -c /Users/MatheusBrum/Desktop/Web/Classes/WebAppDelegate.m -o /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebAppDelegate.o0#
+
+CCompileC build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebViewController.o /Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276909683.970567
+e276909684.013147
+r1
+xCompileC
+xbuild/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebViewController.o
+x/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m:65: warning: property 'webView' requires method '-webView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m:65: warning: property 'webView' requires the method 'setWebView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@66"Compile /Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m276909683#276909684#0(397"/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m:65: warning: property 'webView' requires method '-webView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m:65: warning: property 'webView' requires the method 'setWebView:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@122"Property 'webView' requires method '-webView' to be defined - use @synthesize, @dynamic or provide a method implementation276909683#0#195#0(6@58"/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m276909648#65#0#65#0#0"0(22@129"Property 'webView' requires the method 'setWebView:' to be defined - use @synthesize, @dynamic or provide a method implementation276909683#195#202#0(6@58"/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m276909648#65#0#65#0#0"0(0#0#58"/Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m2416090432#1723"    cd /Users/MatheusBrum/Desktop/Web    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-generated-files.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-project-headers.hmap -F/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources -include /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch -c /Users/MatheusBrum/Desktop/Web/Classes/WebViewController.m -o /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/WebViewController.o0#
+
+CCompileC build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/main.o /Users/MatheusBrum/Desktop/Web/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276909683.926490
+e276909683.970476
+r1
+xCompileC
+xbuild/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/main.o
+x/Users/MatheusBrum/Desktop/Web/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/MatheusBrum/Desktop/Web/main.m276909683#276909683#0(0"0(0#0#37"/Users/MatheusBrum/Desktop/Web/main.m2416090432#1689"    cd /Users/MatheusBrum/Desktop/Web    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-generated-files.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-project-headers.hmap -F/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources -include /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch -c /Users/MatheusBrum/Desktop/Web/main.m -o /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/MatheusBrum/Desktop/Web/MainWindow.xib
+s276909683.126082
+e276909683.364924
+r1
+xCompileXIB
+x/Users/MatheusBrum/Desktop/Web/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib276909683#276909683#0(0"0(0#0#45"/Users/MatheusBrum/Desktop/Web/MainWindow.xib2416090432#452"    cd /Users/MatheusBrum/Desktop/Web    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/MainWindow.nib /Users/MatheusBrum/Desktop/Web/MainWindow.xib0#
+
+CCompileXIB /Users/MatheusBrum/Desktop/Web/WebViewController.xib
+s276909683.126660
+e276909683.352225
+r1
+xCompileXIB
+x/Users/MatheusBrum/Desktop/Web/WebViewController.xib
+lSLF07#2@32"CompileXIB WebViewController.xib276909683#276909683#0(0"0(0#0#52"/Users/MatheusBrum/Desktop/Web/WebViewController.xib2416090432#466"    cd /Users/MatheusBrum/Desktop/Web    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/WebViewController.nib /Users/MatheusBrum/Desktop/Web/WebViewController.xib0#
+
+CGenerateDSYMFile /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app.dSYM /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web
+s276909684.028557
+e276909684.040702
+r1
+xGenerateDSYMFile
+x/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app.dSYM
+x/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/Web.app.dSYM build/Debug-iphonesimulator/Web.app/Web276909684#276909684#0(0"0(0#0#70"/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web2416090432#347"    cd /Users/MatheusBrum/Desktop/Web    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web -o /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app.dSYM0#
+
+CLd /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web normal i386
+s276909684.013236
+e276909684.028472
+r1
+xLd
+x/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web
+xnormal
+xi386
+lSLF07#2@75"Link /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web276909684#276909684#0(0"0(0#0#0"2416090432#802"    cd /Users/MatheusBrum/Desktop/Web    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator -F/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator -filelist /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Objects-normal/i386/Web.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Web0#
+
+CProcessInfoPlistFile /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Info.plist Web-Info.plist
+s276909683.120326
+e276909683.126008
+r1
+xProcessInfoPlistFile
+x/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Info.plist
+xWeb-Info.plist
+lSLF07#2@22"Process Web-Info.plist276909683#276909683#0(0"0(0#0#45"/Users/MatheusBrum/Desktop/Web/Web-Info.plist2416090432#443"    cd /Users/MatheusBrum/Desktop/Web    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Web-Info.plist -genpkginfo /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app/Info.plist0#
+
+CProcessPCH /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch.gch Web_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s276909683.365026
+e276909683.926354
+r1
+xProcessPCH
+x/var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch.gch
+xWeb_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile Web_Prefix.pch276909683#276909683#0(0"0(0#0#45"/Users/MatheusBrum/Desktop/Web/Web_Prefix.pch2416090432#1593"    cd /Users/MatheusBrum/Desktop/Web    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-generated-files.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/Web-project-headers.hmap -F/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/Web/build/Web.build/Debug-iphonesimulator/Web.build/DerivedSources -c /Users/MatheusBrum/Desktop/Web/Web_Prefix.pch -o /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Web_Prefix-fevhsfocwpnzyvaigbuolyplpzny/Web_Prefix.pch.gch0#
+
+CTouch /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app
+s276909684.040774
+e276909684.042937
+r1
+xTouch
+x/Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app
+lSLF07#2@72"Touch /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app276909684#276909684#0(0"0(0#0#0"2416090432#258"    cd /Users/MatheusBrum/Desktop/Web    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/MatheusBrum/Desktop/Web/build/Debug-iphonesimulator/Web.app0#
+

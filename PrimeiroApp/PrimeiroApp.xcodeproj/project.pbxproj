@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		626589781433F5AC00EC482F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626589771433F5AC00EC482F /* UIKit.framework */; };
+		6265897A1433F5AC00EC482F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626589791433F5AC00EC482F /* Foundation.framework */; };
+		6265897C1433F5AC00EC482F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6265897B1433F5AC00EC482F /* CoreGraphics.framework */; };
+		626589821433F5AC00EC482F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 626589801433F5AC00EC482F /* InfoPlist.strings */; };
+		626589841433F5AC00EC482F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626589831433F5AC00EC482F /* main.m */; };
+		626589881433F5AC00EC482F /* PrimeiroAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626589871433F5AC00EC482F /* PrimeiroAppAppDelegate.m */; };
+		6265898B1433F5AC00EC482F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626589891433F5AC00EC482F /* MainWindow.xib */; };
+		6265898E1433F5AC00EC482F /* PrimeiroAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6265898D1433F5AC00EC482F /* PrimeiroAppViewController.m */; };
+		626589911433F5AC00EC482F /* PrimeiroAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6265898F1433F5AC00EC482F /* PrimeiroAppViewController.xib */; };
+		626589991433F5AC00EC482F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626589981433F5AC00EC482F /* SenTestingKit.framework */; };
+		6265899A1433F5AC00EC482F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626589771433F5AC00EC482F /* UIKit.framework */; };
+		6265899B1433F5AC00EC482F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626589791433F5AC00EC482F /* Foundation.framework */; };
+		6265899C1433F5AC00EC482F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6265897B1433F5AC00EC482F /* CoreGraphics.framework */; };
+		626589A41433F5AC00EC482F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 626589A21433F5AC00EC482F /* InfoPlist.strings */; };
+		626589A61433F5AC00EC482F /* PrimeiroAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 626589A51433F5AC00EC482F /* PrimeiroAppTests.h */; };
+		626589A81433F5AC00EC482F /* PrimeiroAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 626589A71433F5AC00EC482F /* PrimeiroAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6265899D1433F5AC00EC482F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6265896A1433F5AC00EC482F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626589721433F5AC00EC482F;
+			remoteInfo = PrimeiroApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		626589731433F5AC00EC482F /* PrimeiroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeiroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		626589771433F5AC00EC482F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		626589791433F5AC00EC482F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6265897B1433F5AC00EC482F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6265897F1433F5AC00EC482F /* PrimeiroApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeiroApp-Info.plist"; sourceTree = "<group>"; };
+		626589811433F5AC00EC482F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		626589831433F5AC00EC482F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		626589851433F5AC00EC482F /* PrimeiroApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeiroApp-Prefix.pch"; sourceTree = "<group>"; };
+		626589861433F5AC00EC482F /* PrimeiroAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeiroAppAppDelegate.h; sourceTree = "<group>"; };
+		626589871433F5AC00EC482F /* PrimeiroAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeiroAppAppDelegate.m; sourceTree = "<group>"; };
+		6265898A1433F5AC00EC482F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6265898C1433F5AC00EC482F /* PrimeiroAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeiroAppViewController.h; sourceTree = "<group>"; };
+		6265898D1433F5AC00EC482F /* PrimeiroAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeiroAppViewController.m; sourceTree = "<group>"; };
+		626589901433F5AC00EC482F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrimeiroAppViewController.xib; sourceTree = "<group>"; };
+		626589971433F5AC00EC482F /* PrimeiroAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeiroAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		626589981433F5AC00EC482F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		626589A11433F5AC00EC482F /* PrimeiroAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeiroAppTests-Info.plist"; sourceTree = "<group>"; };
+		626589A31433F5AC00EC482F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		626589A51433F5AC00EC482F /* PrimeiroAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeiroAppTests.h; sourceTree = "<group>"; };
+		626589A71433F5AC00EC482F /* PrimeiroAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeiroAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		626589701433F5AC00EC482F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626589781433F5AC00EC482F /* UIKit.framework in Frameworks */,
+				6265897A1433F5AC00EC482F /* Foundation.framework in Frameworks */,
+				6265897C1433F5AC00EC482F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626589931433F5AC00EC482F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626589991433F5AC00EC482F /* SenTestingKit.framework in Frameworks */,
+				6265899A1433F5AC00EC482F /* UIKit.framework in Frameworks */,
+				6265899B1433F5AC00EC482F /* Foundation.framework in Frameworks */,
+				6265899C1433F5AC00EC482F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		626589681433F5AC00EC482F = {
+			isa = PBXGroup;
+			children = (
+				6265897D1433F5AC00EC482F /* PrimeiroApp */,
+				6265899F1433F5AC00EC482F /* PrimeiroAppTests */,
+				626589761433F5AC00EC482F /* Frameworks */,
+				626589741433F5AC00EC482F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		626589741433F5AC00EC482F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				626589731433F5AC00EC482F /* PrimeiroApp.app */,
+				626589971433F5AC00EC482F /* PrimeiroAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		626589761433F5AC00EC482F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				626589771433F5AC00EC482F /* UIKit.framework */,
+				626589791433F5AC00EC482F /* Foundation.framework */,
+				6265897B1433F5AC00EC482F /* CoreGraphics.framework */,
+				626589981433F5AC00EC482F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6265897D1433F5AC00EC482F /* PrimeiroApp */ = {
+			isa = PBXGroup;
+			children = (
+				626589861433F5AC00EC482F /* PrimeiroAppAppDelegate.h */,
+				626589871433F5AC00EC482F /* PrimeiroAppAppDelegate.m */,
+				626589891433F5AC00EC482F /* MainWindow.xib */,
+				6265898C1433F5AC00EC482F /* PrimeiroAppViewController.h */,
+				6265898D1433F5AC00EC482F /* PrimeiroAppViewController.m */,
+				6265898F1433F5AC00EC482F /* PrimeiroAppViewController.xib */,
+				6265897E1433F5AC00EC482F /* Supporting Files */,
+			);
+			path = PrimeiroApp;
+			sourceTree = "<group>";
+		};
+		6265897E1433F5AC00EC482F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6265897F1433F5AC00EC482F /* PrimeiroApp-Info.plist */,
+				626589801433F5AC00EC482F /* InfoPlist.strings */,
+				626589831433F5AC00EC482F /* main.m */,
+				626589851433F5AC00EC482F /* PrimeiroApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6265899F1433F5AC00EC482F /* PrimeiroAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				626589A51433F5AC00EC482F /* PrimeiroAppTests.h */,
+				626589A71433F5AC00EC482F /* PrimeiroAppTests.m */,
+				626589A01433F5AC00EC482F /* Supporting Files */,
+			);
+			path = PrimeiroAppTests;
+			sourceTree = "<group>";
+		};
+		626589A01433F5AC00EC482F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				626589A11433F5AC00EC482F /* PrimeiroAppTests-Info.plist */,
+				626589A21433F5AC00EC482F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		626589721433F5AC00EC482F /* PrimeiroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626589AB1433F5AC00EC482F /* Build configuration list for PBXNativeTarget "PrimeiroApp" */;
+			buildPhases = (
+				6265896F1433F5AC00EC482F /* Sources */,
+				626589701433F5AC00EC482F /* Frameworks */,
+				626589711433F5AC00EC482F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeiroApp;
+			productName = PrimeiroApp;
+			productReference = 626589731433F5AC00EC482F /* PrimeiroApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		626589961433F5AC00EC482F /* PrimeiroAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626589AE1433F5AC00EC482F /* Build configuration list for PBXNativeTarget "PrimeiroAppTests" */;
+			buildPhases = (
+				626589921433F5AC00EC482F /* Sources */,
+				626589931433F5AC00EC482F /* Frameworks */,
+				626589941433F5AC00EC482F /* Resources */,
+				626589951433F5AC00EC482F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6265899E1433F5AC00EC482F /* PBXTargetDependency */,
+			);
+			name = PrimeiroAppTests;
+			productName = PrimeiroAppTests;
+			productReference = 626589971433F5AC00EC482F /* PrimeiroAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6265896A1433F5AC00EC482F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6265896D1433F5AC00EC482F /* Build configuration list for PBXProject "PrimeiroApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 626589681433F5AC00EC482F;
+			productRefGroup = 626589741433F5AC00EC482F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				626589721433F5AC00EC482F /* PrimeiroApp */,
+				626589961433F5AC00EC482F /* PrimeiroAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		626589711433F5AC00EC482F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626589821433F5AC00EC482F /* InfoPlist.strings in Resources */,
+				6265898B1433F5AC00EC482F /* MainWindow.xib in Resources */,
+				626589911433F5AC00EC482F /* PrimeiroAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626589941433F5AC00EC482F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626589A41433F5AC00EC482F /* InfoPlist.strings in Resources */,
+				626589A61433F5AC00EC482F /* PrimeiroAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		626589951433F5AC00EC482F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6265896F1433F5AC00EC482F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626589841433F5AC00EC482F /* main.m in Sources */,
+				626589881433F5AC00EC482F /* PrimeiroAppAppDelegate.m in Sources */,
+				6265898E1433F5AC00EC482F /* PrimeiroAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626589921433F5AC00EC482F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626589A81433F5AC00EC482F /* PrimeiroAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6265899E1433F5AC00EC482F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626589721433F5AC00EC482F /* PrimeiroApp */;
+			targetProxy = 6265899D1433F5AC00EC482F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		626589801433F5AC00EC482F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626589811433F5AC00EC482F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		626589891433F5AC00EC482F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6265898A1433F5AC00EC482F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6265898F1433F5AC00EC482F /* PrimeiroAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626589901433F5AC00EC482F /* en */,
+			);
+			name = PrimeiroAppViewController.xib;
+			sourceTree = "<group>";
+		};
+		626589A21433F5AC00EC482F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626589A31433F5AC00EC482F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		626589A91433F5AC00EC482F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		626589AA1433F5AC00EC482F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		626589AC1433F5AC00EC482F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeiroApp/PrimeiroApp-Prefix.pch";
+				INFOPLIST_FILE = "PrimeiroApp/PrimeiroApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		626589AD1433F5AC00EC482F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeiroApp/PrimeiroApp-Prefix.pch";
+				INFOPLIST_FILE = "PrimeiroApp/PrimeiroApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		626589AF1433F5AC00EC482F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeiroApp.app/PrimeiroApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeiroApp/PrimeiroApp-Prefix.pch";
+				INFOPLIST_FILE = "PrimeiroAppTests/PrimeiroAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		626589B01433F5AC00EC482F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeiroApp.app/PrimeiroApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeiroApp/PrimeiroApp-Prefix.pch";
+				INFOPLIST_FILE = "PrimeiroAppTests/PrimeiroAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6265896D1433F5AC00EC482F /* Build configuration list for PBXProject "PrimeiroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626589A91433F5AC00EC482F /* Debug */,
+				626589AA1433F5AC00EC482F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626589AB1433F5AC00EC482F /* Build configuration list for PBXNativeTarget "PrimeiroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626589AC1433F5AC00EC482F /* Debug */,
+				626589AD1433F5AC00EC482F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		626589AE1433F5AC00EC482F /* Build configuration list for PBXNativeTarget "PrimeiroAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626589AF1433F5AC00EC482F /* Debug */,
+				626589B01433F5AC00EC482F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6265896A1433F5AC00EC482F /* Project object */;
+}

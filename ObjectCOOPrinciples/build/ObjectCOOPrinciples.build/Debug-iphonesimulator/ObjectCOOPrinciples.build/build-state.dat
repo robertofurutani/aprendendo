@@ -1,0 +1,351 @@
+TObjectCOOPrinciples
+v7
+r0
+t331606245.878605
+cCheck dependencies
+cProcessInfoPlistFile /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/Info.plist ObjectCOOPrinciples-Info.plist
+cCompileXIB /Users/jairrillo/Desktop/ObjectCOOPrinciples/MainWindow.xib
+cCompileXIB /Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciplesViewController.xib
+cProcessPCH /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch.gch ObjectCOOPrinciples_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/main.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesAppDelegate.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesViewController.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Shape.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Circle.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Rectangle.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples normal i386
+cGenerateDSYMFile /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app.dSYM /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples
+cTouch /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.h
+c000000004E13AFE40000000000000103
+t1309913060
+s259
+i<Foundation/Foundation.h>
+i"Shape.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.m
+c000000004E13B0200000000000000105
+t1309913120
+s261
+i"Circle.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.h
+c000000004E13AE9B000000000000022B
+t1309912731
+s555
+i<UIKit/UIKit.h>
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.m
+c000000004E13AE9B0000000000000AEA
+t1309912731
+s2794
+i"ObjectCOOPrinciplesAppDelegate.h"
+i"ObjectCOOPrinciplesViewController.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.h
+c000000004E13B0C70000000000000189
+t1309913287
+s393
+i<UIKit/UIKit.h>
+i"Circle.h"
+i"Rectangle.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.m
+c000000004E13B14F00000000000001F8
+t1309913423
+s504
+i"ObjectCOOPrinciplesViewController.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.h
+c000000004E13B0680000000000000108
+t1309913192
+s264
+i<Foundation/Foundation.h>
+i"Shape.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.m
+c000000004E13B1640000000000000111
+t1309913444
+s273
+i"Rectangle.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.h
+c000000004E13AF8B0000000000000144
+t1309912971
+s324
+i<Foundation/Foundation.h>
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.m
+c000000004E13AFAA0000000000000133
+t1309913002
+s307
+i"Shape.h"
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/MainWindow.xib
+c000000004E13AE9B0000000000004EB9
+t1309912731
+s20153
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciplesViewController.xib
+c000000004E13B1390000000000005314
+t1309913401
+s21268
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciples_Prefix.pch
+c000000004E13AE9B00000000000000CF
+t1309912731
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app
+t1309913445
+s238
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app.dSYM
+t1309913445
+s102
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/Info.plist
+t1309913003
+s645
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/MainWindow.nib
+t1309913003
+s1705
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples
+t1309913445
+s19744
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciplesViewController.nib
+t1309913410
+s3140
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/PkgInfo
+t1309913003
+s8
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Circle.o
+t1309913121
+s6948
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciples.LinkFileList
+c000000004E13B07F00000000000003CF
+t1309913215
+s975
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesAppDelegate.o
+t1309913353
+s52156
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesViewController.o
+t1309913424
+s39936
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Rectangle.o
+t1309913445
+s6996
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Shape.o
+t1309913004
+s7348
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/main.o
+t1309913004
+s6324
+
+N/Users/jairrillo/Desktop/ObjectCOOPrinciples/main.m
+c000000004E13AE9B0000000000000179
+t1309912731
+s377
+i<UIKit/UIKit.h>
+
+N/var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch.gch
+t1309913004
+s15814064
+
+NObjectCOOPrinciples-Info.plist
+c000000004E13AE9B000000000000038D
+t1309912731
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331606245#331606245#0(0"0(0#1#0"8613922400#0"0#
+
+CCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Circle.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331605921.357339
+e331605921.439899
+r1
+xCompileC
+xbuild/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Circle.o
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.m331605921#331605921#0(0"0(0#0#61"/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.m8613221984#2232"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-generated-files.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-own-target-headers.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-all-target-headers.hmap -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-project-headers.hmap -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/include -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources/i386 -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources -include /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Circle.m -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Circle.o0#
+
+CCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesAppDelegate.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331606153.254521
+e331606153.315323
+r1
+xCompileC
+xbuild/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesAppDelegate.o
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.m331606153#331606153#0(0"0(0#0#85"/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.m8614718432#2280"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-generated-files.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-own-target-headers.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-all-target-headers.hmap -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-project-headers.hmap -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/include -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources/i386 -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources -include /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesAppDelegate.m -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesAppDelegate.o0#
+
+CCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesViewController.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331606224.099011
+e331606224.144946
+r1
+xCompileC
+xbuild/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesViewController.o
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.m331606224#331606224#0(0"0(0#0#88"/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.m8601323840#2286"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-generated-files.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-own-target-headers.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-all-target-headers.hmap -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-project-headers.hmap -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/include -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources/i386 -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources -include /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/ObjectCOOPrinciplesViewController.m -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciplesViewController.o0#
+
+CCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Rectangle.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331606245.764648
+e331606245.845855
+r1
+xCompileC
+xbuild/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Rectangle.o
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.m331606245#331606245#0(0"0(0#0#64"/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.m8615291936#2238"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-generated-files.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-own-target-headers.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-all-target-headers.hmap -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-project-headers.hmap -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/include -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources/i386 -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources -include /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Rectangle.m -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Rectangle.o0#
+
+CCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Shape.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331605804.439387
+e331605804.548536
+r1
+xCompileC
+xbuild/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Shape.o
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.m331605804#331605804#0(0"0(0#0#60"/Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.m8612574208#2230"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-generated-files.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-own-target-headers.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-all-target-headers.hmap -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-project-headers.hmap -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/include -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources/i386 -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources -include /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/Classes/Shape.m -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/Shape.o0#
+
+CCompileC build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/main.o /Users/jairrillo/Desktop/ObjectCOOPrinciples/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331605804.436519
+e331605804.548254
+r1
+xCompileC
+xbuild/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/main.o
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/main.m331605804#331605804#0(0"0(0#0#51"/Users/jairrillo/Desktop/ObjectCOOPrinciples/main.m8612942336#2220"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-generated-files.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-own-target-headers.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-all-target-headers.hmap -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-project-headers.hmap -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/include -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources/i386 -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources -include /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/main.m -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jairrillo/Desktop/ObjectCOOPrinciples/MainWindow.xib
+s331605803.420832
+e331605803.768684
+r1
+xCompileXIB
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib331605803#331605803#0(0"0(0#0#59"/Users/jairrillo/Desktop/ObjectCOOPrinciples/MainWindow.xib8613235360#600"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/MainWindow.nib /Users/jairrillo/Desktop/ObjectCOOPrinciples/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciplesViewController.xib
+s331606210.408315
+e331606210.759929
+r1
+xCompileXIB
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciplesViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@48"CompileXIB ObjectCOOPrinciplesViewController.xib331606210#331606210#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#82"/Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciplesViewController.xib8611496000#646"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciplesViewController.nib /Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciplesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app.dSYM /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples
+s331606245.864495
+e331606245.876566
+r1
+xGenerateDSYMFile
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app.dSYM
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/ObjectCOOPrinciples.app.dSYM build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples331606245#331606245#0(0"0(0#0#116"/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples8615412960#437"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app.dSYM0#
+
+CLd /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples normal i386
+s331606245.845940
+e331606245.864410
+r1
+xLd
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples
+xnormal
+xi386
+lSLF07#2@121"Link /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples331606245#331606245#0(0"0(0#0#0"8615581248#990"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -filelist /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/Objects-normal/i386/ObjectCOOPrinciples.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/ObjectCOOPrinciples0#
+
+CProcessInfoPlistFile /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/Info.plist ObjectCOOPrinciples-Info.plist
+s331605803.396780
+e331605803.420700
+r1
+xProcessInfoPlistFile
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/Info.plist
+xObjectCOOPrinciples-Info.plist
+lSLF07#2@38"Process ObjectCOOPrinciples-Info.plist331605803#331605803#0(0"0(0#0#75"/Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciples-Info.plist31525614006435956#533"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ObjectCOOPrinciples-Info.plist -genpkginfo /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app/Info.plist0#
+
+CProcessPCH /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch.gch ObjectCOOPrinciples_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s331605803.769115
+e331605804.436426
+r1
+xProcessPCH
+x/var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch.gch
+xObjectCOOPrinciples_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile ObjectCOOPrinciples_Prefix.pch331605803#331605804#0(0"0(0#0#75"/Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciples_Prefix.pch8612783296#2094"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-generated-files.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-own-target-headers.hmap -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-all-target-headers.hmap -iquote /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/ObjectCOOPrinciples-project-headers.hmap -F/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/include -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources/i386 -I/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/ObjectCOOPrinciples.build/Debug-iphonesimulator/ObjectCOOPrinciples.build/DerivedSources -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/ObjectCOOPrinciples_Prefix.pch -o /var/folders/12/12nnT7W5FcmZObDyT6WLM++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectCOOPrinciples_Prefix-fdjrmlufqxgxowdyekulvvxqlkzx/ObjectCOOPrinciples_Prefix.pch.gch0#
+
+CTouch /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app
+s331606245.876644
+e331606245.878576
+r1
+xTouch
+x/Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app
+lSLF07#2@102"Touch /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app331606245#331606245#0(0"0(0#0#0"8615051104#302"    cd /Users/jairrillo/Desktop/ObjectCOOPrinciples    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jairrillo/Desktop/ObjectCOOPrinciples/build/Debug-iphonesimulator/ObjectCOOPrinciples.app0#
+

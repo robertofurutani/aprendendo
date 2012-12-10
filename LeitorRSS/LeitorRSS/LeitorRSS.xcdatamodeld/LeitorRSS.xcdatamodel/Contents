@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Posts" representedClassName="Posts">
+        <attribute name="attribute" optional="YES" attributeType="String"/>
+        <attribute name="conteudo" optional="YES" attributeType="String"/>
+        <attribute name="data_publicacao" optional="YES" attributeType="Date"/>
+        <attribute name="guid" optional="YES" attributeType="String"/>
+        <attribute name="titulo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Urls" representedClassName="Urls">
+        <attribute name="nome" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Urls" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Posts" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
+</model>

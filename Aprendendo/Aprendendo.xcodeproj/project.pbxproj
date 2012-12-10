@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62570579162B6063004AAFCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62570578162B6063004AAFCC /* UIKit.framework */; };
+		6257057B162B6063004AAFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257057A162B6063004AAFCC /* Foundation.framework */; };
+		6257057D162B6063004AAFCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257057C162B6063004AAFCC /* CoreGraphics.framework */; };
+		62570583162B6063004AAFCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62570581162B6063004AAFCC /* InfoPlist.strings */; };
+		62570585162B6063004AAFCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62570584162B6063004AAFCC /* main.m */; };
+		62570589162B6063004AAFCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62570588162B6063004AAFCC /* AppDelegate.m */; };
+		6257058B162B6063004AAFCC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6257058A162B6063004AAFCC /* Default.png */; };
+		6257058D162B6063004AAFCC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6257058C162B6063004AAFCC /* Default@2x.png */; };
+		6257058F162B6063004AAFCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6257058E162B6063004AAFCC /* Default-568h@2x.png */; };
+		62570592162B6063004AAFCC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62570591162B6063004AAFCC /* FirstViewController.m */; };
+		62570594162B6063004AAFCC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 62570593162B6063004AAFCC /* first.png */; };
+		62570596162B6063004AAFCC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62570595162B6063004AAFCC /* first@2x.png */; };
+		62570599162B6063004AAFCC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62570598162B6063004AAFCC /* SecondViewController.m */; };
+		6257059B162B6063004AAFCC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 6257059A162B6063004AAFCC /* second.png */; };
+		6257059D162B6063004AAFCC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6257059C162B6063004AAFCC /* second@2x.png */; };
+		625705A0162B6063004AAFCC /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6257059E162B6063004AAFCC /* FirstViewController.xib */; };
+		625705A3162B6063004AAFCC /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625705A1162B6063004AAFCC /* SecondViewController.xib */; };
+		625705AB162B6063004AAFCC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625705AA162B6063004AAFCC /* SenTestingKit.framework */; };
+		625705AC162B6063004AAFCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62570578162B6063004AAFCC /* UIKit.framework */; };
+		625705AD162B6063004AAFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257057A162B6063004AAFCC /* Foundation.framework */; };
+		625705B5162B6063004AAFCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 625705B3162B6063004AAFCC /* InfoPlist.strings */; };
+		625705B8162B6063004AAFCC /* AprendendoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625705B7162B6063004AAFCC /* AprendendoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		625705AE162B6063004AAFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6257056B162B6063004AAFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62570573162B6063004AAFCC;
+			remoteInfo = Aprendendo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62570574162B6063004AAFCC /* Aprendendo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aprendendo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62570578162B6063004AAFCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6257057A162B6063004AAFCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6257057C162B6063004AAFCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62570580162B6063004AAFCC /* Aprendendo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aprendendo-Info.plist"; sourceTree = "<group>"; };
+		62570582162B6063004AAFCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62570584162B6063004AAFCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62570586162B6063004AAFCC /* Aprendendo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aprendendo-Prefix.pch"; sourceTree = "<group>"; };
+		62570587162B6063004AAFCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62570588162B6063004AAFCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6257058A162B6063004AAFCC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6257058C162B6063004AAFCC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6257058E162B6063004AAFCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		62570590162B6063004AAFCC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		62570591162B6063004AAFCC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		62570593162B6063004AAFCC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		62570595162B6063004AAFCC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		62570597162B6063004AAFCC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		62570598162B6063004AAFCC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6257059A162B6063004AAFCC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		6257059C162B6063004AAFCC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		6257059F162B6063004AAFCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		625705A2162B6063004AAFCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		625705A9162B6063004AAFCC /* AprendendoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprendendoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625705AA162B6063004AAFCC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		625705B2162B6063004AAFCC /* AprendendoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AprendendoTests-Info.plist"; sourceTree = "<group>"; };
+		625705B4162B6063004AAFCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		625705B6162B6063004AAFCC /* AprendendoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AprendendoTests.h; sourceTree = "<group>"; };
+		625705B7162B6063004AAFCC /* AprendendoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AprendendoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62570571162B6063004AAFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62570579162B6063004AAFCC /* UIKit.framework in Frameworks */,
+				6257057B162B6063004AAFCC /* Foundation.framework in Frameworks */,
+				6257057D162B6063004AAFCC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625705A5162B6063004AAFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625705AB162B6063004AAFCC /* SenTestingKit.framework in Frameworks */,
+				625705AC162B6063004AAFCC /* UIKit.framework in Frameworks */,
+				625705AD162B6063004AAFCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62570569162B6063004AAFCC = {
+			isa = PBXGroup;
+			children = (
+				6257057E162B6063004AAFCC /* Aprendendo */,
+				625705B0162B6063004AAFCC /* AprendendoTests */,
+				62570577162B6063004AAFCC /* Frameworks */,
+				62570575162B6063004AAFCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62570575162B6063004AAFCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62570574162B6063004AAFCC /* Aprendendo.app */,
+				625705A9162B6063004AAFCC /* AprendendoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62570577162B6063004AAFCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62570578162B6063004AAFCC /* UIKit.framework */,
+				6257057A162B6063004AAFCC /* Foundation.framework */,
+				6257057C162B6063004AAFCC /* CoreGraphics.framework */,
+				625705AA162B6063004AAFCC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6257057E162B6063004AAFCC /* Aprendendo */ = {
+			isa = PBXGroup;
+			children = (
+				62570587162B6063004AAFCC /* AppDelegate.h */,
+				62570588162B6063004AAFCC /* AppDelegate.m */,
+				62570590162B6063004AAFCC /* FirstViewController.h */,
+				62570591162B6063004AAFCC /* FirstViewController.m */,
+				62570593162B6063004AAFCC /* first.png */,
+				62570595162B6063004AAFCC /* first@2x.png */,
+				62570597162B6063004AAFCC /* SecondViewController.h */,
+				62570598162B6063004AAFCC /* SecondViewController.m */,
+				6257059A162B6063004AAFCC /* second.png */,
+				6257059C162B6063004AAFCC /* second@2x.png */,
+				6257059E162B6063004AAFCC /* FirstViewController.xib */,
+				625705A1162B6063004AAFCC /* SecondViewController.xib */,
+				6257057F162B6063004AAFCC /* Supporting Files */,
+			);
+			path = Aprendendo;
+			sourceTree = "<group>";
+		};
+		6257057F162B6063004AAFCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62570580162B6063004AAFCC /* Aprendendo-Info.plist */,
+				62570581162B6063004AAFCC /* InfoPlist.strings */,
+				62570584162B6063004AAFCC /* main.m */,
+				62570586162B6063004AAFCC /* Aprendendo-Prefix.pch */,
+				6257058A162B6063004AAFCC /* Default.png */,
+				6257058C162B6063004AAFCC /* Default@2x.png */,
+				6257058E162B6063004AAFCC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		625705B0162B6063004AAFCC /* AprendendoTests */ = {
+			isa = PBXGroup;
+			children = (
+				625705B6162B6063004AAFCC /* AprendendoTests.h */,
+				625705B7162B6063004AAFCC /* AprendendoTests.m */,
+				625705B1162B6063004AAFCC /* Supporting Files */,
+			);
+			path = AprendendoTests;
+			sourceTree = "<group>";
+		};
+		625705B1162B6063004AAFCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				625705B2162B6063004AAFCC /* AprendendoTests-Info.plist */,
+				625705B3162B6063004AAFCC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62570573162B6063004AAFCC /* Aprendendo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625705BB162B6063004AAFCC /* Build configuration list for PBXNativeTarget "Aprendendo" */;
+			buildPhases = (
+				62570570162B6063004AAFCC /* Sources */,
+				62570571162B6063004AAFCC /* Frameworks */,
+				62570572162B6063004AAFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aprendendo;
+			productName = Aprendendo;
+			productReference = 62570574162B6063004AAFCC /* Aprendendo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		625705A8162B6063004AAFCC /* AprendendoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625705BE162B6063004AAFCC /* Build configuration list for PBXNativeTarget "AprendendoTests" */;
+			buildPhases = (
+				625705A4162B6063004AAFCC /* Sources */,
+				625705A5162B6063004AAFCC /* Frameworks */,
+				625705A6162B6063004AAFCC /* Resources */,
+				625705A7162B6063004AAFCC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625705AF162B6063004AAFCC /* PBXTargetDependency */,
+			);
+			name = AprendendoTests;
+			productName = AprendendoTests;
+			productReference = 625705A9162B6063004AAFCC /* AprendendoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6257056B162B6063004AAFCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Roberto Furutani";
+			};
+			buildConfigurationList = 6257056E162B6063004AAFCC /* Build configuration list for PBXProject "Aprendendo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62570569162B6063004AAFCC;
+			productRefGroup = 62570575162B6063004AAFCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62570573162B6063004AAFCC /* Aprendendo */,
+				625705A8162B6063004AAFCC /* AprendendoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62570572162B6063004AAFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62570583162B6063004AAFCC /* InfoPlist.strings in Resources */,
+				6257058B162B6063004AAFCC /* Default.png in Resources */,
+				6257058D162B6063004AAFCC /* Default@2x.png in Resources */,
+				6257058F162B6063004AAFCC /* Default-568h@2x.png in Resources */,
+				62570594162B6063004AAFCC /* first.png in Resources */,
+				62570596162B6063004AAFCC /* first@2x.png in Resources */,
+				6257059B162B6063004AAFCC /* second.png in Resources */,
+				6257059D162B6063004AAFCC /* second@2x.png in Resources */,
+				625705A0162B6063004AAFCC /* FirstViewController.xib in Resources */,
+				625705A3162B6063004AAFCC /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625705A6162B6063004AAFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625705B5162B6063004AAFCC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		625705A7162B6063004AAFCC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62570570162B6063004AAFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62570585162B6063004AAFCC /* main.m in Sources */,
+				62570589162B6063004AAFCC /* AppDelegate.m in Sources */,
+				62570592162B6063004AAFCC /* FirstViewController.m in Sources */,
+				62570599162B6063004AAFCC /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625705A4162B6063004AAFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625705B8162B6063004AAFCC /* AprendendoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		625705AF162B6063004AAFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62570573162B6063004AAFCC /* Aprendendo */;
+			targetProxy = 625705AE162B6063004AAFCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62570581162B6063004AAFCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62570582162B6063004AAFCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6257059E162B6063004AAFCC /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6257059F162B6063004AAFCC /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		625705A1162B6063004AAFCC /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				625705A2162B6063004AAFCC /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		625705B3162B6063004AAFCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				625705B4162B6063004AAFCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		625705B9162B6063004AAFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		625705BA162B6063004AAFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		625705BC162B6063004AAFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aprendendo/Aprendendo-Prefix.pch";
+				INFOPLIST_FILE = "Aprendendo/Aprendendo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		625705BD162B6063004AAFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aprendendo/Aprendendo-Prefix.pch";
+				INFOPLIST_FILE = "Aprendendo/Aprendendo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		625705BF162B6063004AAFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aprendendo.app/Aprendendo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aprendendo/Aprendendo-Prefix.pch";
+				INFOPLIST_FILE = "AprendendoTests/AprendendoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		625705C0162B6063004AAFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aprendendo.app/Aprendendo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aprendendo/Aprendendo-Prefix.pch";
+				INFOPLIST_FILE = "AprendendoTests/AprendendoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6257056E162B6063004AAFCC /* Build configuration list for PBXProject "Aprendendo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625705B9162B6063004AAFCC /* Debug */,
+				625705BA162B6063004AAFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625705BB162B6063004AAFCC /* Build configuration list for PBXNativeTarget "Aprendendo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625705BC162B6063004AAFCC /* Debug */,
+				625705BD162B6063004AAFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		625705BE162B6063004AAFCC /* Build configuration list for PBXNativeTarget "AprendendoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625705BF162B6063004AAFCC /* Debug */,
+				625705C0162B6063004AAFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6257056B162B6063004AAFCC /* Project object */;
+}

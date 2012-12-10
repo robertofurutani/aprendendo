@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621C7DE114ACDD5C002903CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621C7DE014ACDD5C002903CA /* UIKit.framework */; };
+		621C7DE314ACDD5C002903CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621C7DE214ACDD5C002903CA /* Foundation.framework */; };
+		621C7DE514ACDD5C002903CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621C7DE414ACDD5C002903CA /* CoreGraphics.framework */; };
+		621C7DE714ACDD5C002903CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621C7DE614ACDD5C002903CA /* CoreData.framework */; };
+		621C7DED14ACDD5C002903CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 621C7DEB14ACDD5C002903CA /* InfoPlist.strings */; };
+		621C7DEF14ACDD5C002903CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C7DEE14ACDD5C002903CA /* main.m */; };
+		621C7DF314ACDD5C002903CA /* AloMundoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C7DF214ACDD5C002903CA /* AloMundoAppDelegate.m */; };
+		621C7DF614ACDD5C002903CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621C7DF414ACDD5C002903CA /* MainWindow.xib */; };
+		621C7DF914ACDD5C002903CA /* AloMundo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 621C7DF714ACDD5C002903CA /* AloMundo.xcdatamodeld */; };
+		621C7E0114ACE005002903CA /* AloMundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C7E0014ACE005002903CA /* AloMundoViewController.m */; };
+		621C7E0314ACF3A0002903CA /* 1257348.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 621C7E0214ACF3A0002903CA /* 1257348.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		621C7DDC14ACDD5C002903CA /* AloMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		621C7DE014ACDD5C002903CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		621C7DE214ACDD5C002903CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		621C7DE414ACDD5C002903CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		621C7DE614ACDD5C002903CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		621C7DEA14ACDD5C002903CA /* AloMundo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AloMundo-Info.plist"; sourceTree = "<group>"; };
+		621C7DEC14ACDD5C002903CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		621C7DEE14ACDD5C002903CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		621C7DF014ACDD5C002903CA /* AloMundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AloMundo-Prefix.pch"; sourceTree = "<group>"; };
+		621C7DF114ACDD5C002903CA /* AloMundoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AloMundoAppDelegate.h; sourceTree = "<group>"; };
+		621C7DF214ACDD5C002903CA /* AloMundoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AloMundoAppDelegate.m; sourceTree = "<group>"; };
+		621C7DF514ACDD5C002903CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		621C7DF814ACDD5C002903CA /* AloMundo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AloMundo.xcdatamodel; sourceTree = "<group>"; };
+		621C7DFF14ACE005002903CA /* AloMundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AloMundoViewController.h; sourceTree = "<group>"; };
+		621C7E0014ACE005002903CA /* AloMundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AloMundoViewController.m; sourceTree = "<group>"; };
+		621C7E0214ACF3A0002903CA /* 1257348.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1257348.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621C7DD914ACDD5C002903CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621C7DE114ACDD5C002903CA /* UIKit.framework in Frameworks */,
+				621C7DE314ACDD5C002903CA /* Foundation.framework in Frameworks */,
+				621C7DE514ACDD5C002903CA /* CoreGraphics.framework in Frameworks */,
+				621C7DE714ACDD5C002903CA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621C7DD114ACDD5C002903CA = {
+			isa = PBXGroup;
+			children = (
+				621C7DE814ACDD5C002903CA /* AloMundo */,
+				621C7DDF14ACDD5C002903CA /* Frameworks */,
+				621C7DDD14ACDD5C002903CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		621C7DDD14ACDD5C002903CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621C7DDC14ACDD5C002903CA /* AloMundo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621C7DDF14ACDD5C002903CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				621C7DE014ACDD5C002903CA /* UIKit.framework */,
+				621C7DE214ACDD5C002903CA /* Foundation.framework */,
+				621C7DE414ACDD5C002903CA /* CoreGraphics.framework */,
+				621C7DE614ACDD5C002903CA /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		621C7DE814ACDD5C002903CA /* AloMundo */ = {
+			isa = PBXGroup;
+			children = (
+				621C7DF114ACDD5C002903CA /* AloMundoAppDelegate.h */,
+				621C7DF214ACDD5C002903CA /* AloMundoAppDelegate.m */,
+				621C7DF414ACDD5C002903CA /* MainWindow.xib */,
+				621C7DF714ACDD5C002903CA /* AloMundo.xcdatamodeld */,
+				621C7DE914ACDD5C002903CA /* Supporting Files */,
+				621C7DFF14ACE005002903CA /* AloMundoViewController.h */,
+				621C7E0014ACE005002903CA /* AloMundoViewController.m */,
+			);
+			path = AloMundo;
+			sourceTree = "<group>";
+		};
+		621C7DE914ACDD5C002903CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				621C7E0214ACF3A0002903CA /* 1257348.jpg */,
+				621C7DEA14ACDD5C002903CA /* AloMundo-Info.plist */,
+				621C7DEB14ACDD5C002903CA /* InfoPlist.strings */,
+				621C7DEE14ACDD5C002903CA /* main.m */,
+				621C7DF014ACDD5C002903CA /* AloMundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621C7DDB14ACDD5C002903CA /* AloMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621C7DFC14ACDD5C002903CA /* Build configuration list for PBXNativeTarget "AloMundo" */;
+			buildPhases = (
+				621C7DD814ACDD5C002903CA /* Sources */,
+				621C7DD914ACDD5C002903CA /* Frameworks */,
+				621C7DDA14ACDD5C002903CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AloMundo;
+			productName = AloMundo;
+			productReference = 621C7DDC14ACDD5C002903CA /* AloMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		621C7DD314ACDD5C002903CA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 621C7DD614ACDD5C002903CA /* Build configuration list for PBXProject "AloMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 621C7DD114ACDD5C002903CA;
+			productRefGroup = 621C7DDD14ACDD5C002903CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621C7DDB14ACDD5C002903CA /* AloMundo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621C7DDA14ACDD5C002903CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621C7DED14ACDD5C002903CA /* InfoPlist.strings in Resources */,
+				621C7DF614ACDD5C002903CA /* MainWindow.xib in Resources */,
+				621C7E0314ACF3A0002903CA /* 1257348.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621C7DD814ACDD5C002903CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621C7DEF14ACDD5C002903CA /* main.m in Sources */,
+				621C7DF314ACDD5C002903CA /* AloMundoAppDelegate.m in Sources */,
+				621C7DF914ACDD5C002903CA /* AloMundo.xcdatamodeld in Sources */,
+				621C7E0114ACE005002903CA /* AloMundoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		621C7DEB14ACDD5C002903CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621C7DEC14ACDD5C002903CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		621C7DF414ACDD5C002903CA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621C7DF514ACDD5C002903CA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		621C7DFA14ACDD5C002903CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		621C7DFB14ACDD5C002903CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621C7DFD14ACDD5C002903CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AloMundo/AloMundo-Prefix.pch";
+				INFOPLIST_FILE = "AloMundo/AloMundo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		621C7DFE14ACDD5C002903CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AloMundo/AloMundo-Prefix.pch";
+				INFOPLIST_FILE = "AloMundo/AloMundo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621C7DD614ACDD5C002903CA /* Build configuration list for PBXProject "AloMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621C7DFA14ACDD5C002903CA /* Debug */,
+				621C7DFB14ACDD5C002903CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621C7DFC14ACDD5C002903CA /* Build configuration list for PBXNativeTarget "AloMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621C7DFD14ACDD5C002903CA /* Debug */,
+				621C7DFE14ACDD5C002903CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		621C7DF714ACDD5C002903CA /* AloMundo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				621C7DF814ACDD5C002903CA /* AloMundo.xcdatamodel */,
+			);
+			currentVersion = 621C7DF814ACDD5C002903CA /* AloMundo.xcdatamodel */;
+			path = AloMundo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 621C7DD314ACDD5C002903CA /* Project object */;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11B2118" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Contato" representedClassName="Contato">
+        <attribute name="idade" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="nome" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Contato" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>

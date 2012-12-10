@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62054D7F144A4398009EC2B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62054D7E144A4398009EC2B5 /* UIKit.framework */; };
+		62054D81144A4398009EC2B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62054D80144A4398009EC2B5 /* Foundation.framework */; };
+		62054D83144A4398009EC2B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62054D82144A4398009EC2B5 /* CoreGraphics.framework */; };
+		62054D85144A4398009EC2B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62054D84144A4398009EC2B5 /* CoreData.framework */; };
+		62054D8B144A4398009EC2B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62054D89144A4398009EC2B5 /* InfoPlist.strings */; };
+		62054D8D144A4398009EC2B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054D8C144A4398009EC2B5 /* main.m */; };
+		62054D91144A4398009EC2B5 /* LeitorRSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054D90144A4398009EC2B5 /* LeitorRSSAppDelegate.m */; };
+		62054D94144A4398009EC2B5 /* LeitorRSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62054D92144A4398009EC2B5 /* LeitorRSS.xcdatamodeld */; };
+		62054D98144A4398009EC2B5 /* LeitorRSSAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054D97144A4398009EC2B5 /* LeitorRSSAppDelegate_iPhone.m */; };
+		62054D9B144A4398009EC2B5 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62054D99144A4398009EC2B5 /* MainWindow_iPhone.xib */; };
+		62054D9F144A4398009EC2B5 /* LeitorRSSAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054D9E144A4398009EC2B5 /* LeitorRSSAppDelegate_iPad.m */; };
+		62054DA2144A4398009EC2B5 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62054DA0144A4398009EC2B5 /* MainWindow_iPad.xib */; };
+		62054DAA144A45F8009EC2B5 /* Posts.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DA9144A45F8009EC2B5 /* Posts.m */; };
+		62054DAD144A460D009EC2B5 /* Urls.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DAC144A460D009EC2B5 /* Urls.m */; };
+		62054DB0144A47A3009EC2B5 /* FeedPosts.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DAF144A47A3009EC2B5 /* FeedPosts.m */; };
+		62054DB4144A4955009EC2B5 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DB3144A4955009EC2B5 /* XMLParser.m */; };
+		62054DB8144A574B009EC2B5 /* EditFeeds.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DB6144A574B009EC2B5 /* EditFeeds.m */; };
+		62054DB9144A574B009EC2B5 /* EditFeeds.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62054DB7144A574B009EC2B5 /* EditFeeds.xib */; };
+		62054DC1144A5DE4009EC2B5 /* FeedsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DC0144A5DE4009EC2B5 /* FeedsController.m */; };
+		62054DC4144A61CF009EC2B5 /* PostsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DC3144A61CF009EC2B5 /* PostsController.m */; };
+		62054DC8144A645D009EC2B5 /* Postagem.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DC6144A645D009EC2B5 /* Postagem.m */; };
+		62054DC9144A645D009EC2B5 /* Postagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62054DC7144A645D009EC2B5 /* Postagem.xib */; };
+		62054DCB144A660D009EC2B5 /* postagem.css in Resources */ = {isa = PBXBuildFile; fileRef = 62054DCA144A660D009EC2B5 /* postagem.css */; };
+		62054DCE144A6724009EC2B5 /* Novidades.m in Sources */ = {isa = PBXBuildFile; fileRef = 62054DCD144A6723009EC2B5 /* Novidades.m */; };
+		62E923CE1458DED8005E02C3 /* tab_novidades.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923CA1458DED8005E02C3 /* tab_novidades.png */; };
+		62E923CF1458DED8005E02C3 /* tab_novidades@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923CB1458DED8005E02C3 /* tab_novidades@2x.png */; };
+		62E923D01458DED8005E02C3 /* tab_rss.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923CC1458DED8005E02C3 /* tab_rss.png */; };
+		62E923D11458DED8005E02C3 /* tab_rss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923CD1458DED8005E02C3 /* tab_rss@2x.png */; };
+		62E923D51458E0B9005E02C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923D31458E0B9005E02C3 /* Icon.png */; };
+		62E923D61458E0B9005E02C3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923D41458E0B9005E02C3 /* Icon@2x.png */; };
+		62E923D91458E10A005E02C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923D71458E10A005E02C3 /* Default.png */; };
+		62E923DA1458E10A005E02C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E923D81458E10A005E02C3 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62054D7A144A4398009EC2B5 /* LeitorRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeitorRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62054D7E144A4398009EC2B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62054D80144A4398009EC2B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62054D82144A4398009EC2B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62054D84144A4398009EC2B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		62054D88144A4398009EC2B5 /* LeitorRSS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeitorRSS-Info.plist"; sourceTree = "<group>"; };
+		62054D8A144A4398009EC2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62054D8C144A4398009EC2B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62054D8E144A4398009EC2B5 /* LeitorRSS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeitorRSS-Prefix.pch"; sourceTree = "<group>"; };
+		62054D8F144A4398009EC2B5 /* LeitorRSSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeitorRSSAppDelegate.h; sourceTree = "<group>"; };
+		62054D90144A4398009EC2B5 /* LeitorRSSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeitorRSSAppDelegate.m; sourceTree = "<group>"; };
+		62054D93144A4398009EC2B5 /* LeitorRSS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeitorRSS.xcdatamodel; sourceTree = "<group>"; };
+		62054D96144A4398009EC2B5 /* LeitorRSSAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeitorRSSAppDelegate_iPhone.h; path = iPhone/LeitorRSSAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		62054D97144A4398009EC2B5 /* LeitorRSSAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LeitorRSSAppDelegate_iPhone.m; path = iPhone/LeitorRSSAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		62054D9A144A4398009EC2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		62054D9D144A4398009EC2B5 /* LeitorRSSAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeitorRSSAppDelegate_iPad.h; path = iPad/LeitorRSSAppDelegate_iPad.h; sourceTree = "<group>"; };
+		62054D9E144A4398009EC2B5 /* LeitorRSSAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LeitorRSSAppDelegate_iPad.m; path = iPad/LeitorRSSAppDelegate_iPad.m; sourceTree = "<group>"; };
+		62054DA1144A4398009EC2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		62054DA8144A45F8009EC2B5 /* Posts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Posts.h; sourceTree = "<group>"; };
+		62054DA9144A45F8009EC2B5 /* Posts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Posts.m; sourceTree = "<group>"; };
+		62054DAB144A460D009EC2B5 /* Urls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Urls.h; sourceTree = "<group>"; };
+		62054DAC144A460D009EC2B5 /* Urls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Urls.m; sourceTree = "<group>"; };
+		62054DAE144A47A3009EC2B5 /* FeedPosts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedPosts.h; sourceTree = "<group>"; };
+		62054DAF144A47A3009EC2B5 /* FeedPosts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedPosts.m; sourceTree = "<group>"; };
+		62054DB2144A4955009EC2B5 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		62054DB3144A4955009EC2B5 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		62054DB5144A574B009EC2B5 /* EditFeeds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFeeds.h; sourceTree = "<group>"; };
+		62054DB6144A574B009EC2B5 /* EditFeeds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFeeds.m; sourceTree = "<group>"; };
+		62054DB7144A574B009EC2B5 /* EditFeeds.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditFeeds.xib; sourceTree = "<group>"; };
+		62054DBF144A5DE4009EC2B5 /* FeedsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedsController.h; path = ../FeedsController.h; sourceTree = "<group>"; };
+		62054DC0144A5DE4009EC2B5 /* FeedsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedsController.m; path = ../FeedsController.m; sourceTree = "<group>"; };
+		62054DC2144A61CF009EC2B5 /* PostsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsController.h; sourceTree = "<group>"; };
+		62054DC3144A61CF009EC2B5 /* PostsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsController.m; sourceTree = "<group>"; };
+		62054DC5144A645D009EC2B5 /* Postagem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Postagem.h; sourceTree = "<group>"; };
+		62054DC6144A645D009EC2B5 /* Postagem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Postagem.m; sourceTree = "<group>"; };
+		62054DC7144A645D009EC2B5 /* Postagem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Postagem.xib; sourceTree = "<group>"; };
+		62054DCA144A660D009EC2B5 /* postagem.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = postagem.css; sourceTree = "<group>"; };
+		62054DCC144A6723009EC2B5 /* Novidades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novidades.h; sourceTree = "<group>"; };
+		62054DCD144A6723009EC2B5 /* Novidades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novidades.m; sourceTree = "<group>"; };
+		62E923CA1458DED8005E02C3 /* tab_novidades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_novidades.png; sourceTree = "<group>"; };
+		62E923CB1458DED8005E02C3 /* tab_novidades@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_novidades@2x.png"; sourceTree = "<group>"; };
+		62E923CC1458DED8005E02C3 /* tab_rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_rss.png; sourceTree = "<group>"; };
+		62E923CD1458DED8005E02C3 /* tab_rss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_rss@2x.png"; sourceTree = "<group>"; };
+		62E923D31458E0B9005E02C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		62E923D41458E0B9005E02C3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		62E923D71458E10A005E02C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		62E923D81458E10A005E02C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62054D77144A4398009EC2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62054D7F144A4398009EC2B5 /* UIKit.framework in Frameworks */,
+				62054D81144A4398009EC2B5 /* Foundation.framework in Frameworks */,
+				62054D83144A4398009EC2B5 /* CoreGraphics.framework in Frameworks */,
+				62054D85144A4398009EC2B5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62054D6F144A4398009EC2B5 = {
+			isa = PBXGroup;
+			children = (
+				62054D86144A4398009EC2B5 /* LeitorRSS */,
+				62054D7D144A4398009EC2B5 /* Frameworks */,
+				62054D7B144A4398009EC2B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62054D7B144A4398009EC2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62054D7A144A4398009EC2B5 /* LeitorRSS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62054D7D144A4398009EC2B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62054D7E144A4398009EC2B5 /* UIKit.framework */,
+				62054D80144A4398009EC2B5 /* Foundation.framework */,
+				62054D82144A4398009EC2B5 /* CoreGraphics.framework */,
+				62054D84144A4398009EC2B5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62054D86144A4398009EC2B5 /* LeitorRSS */ = {
+			isa = PBXGroup;
+			children = (
+				62054DB1144A47B4009EC2B5 /* Classes */,
+				62054D8F144A4398009EC2B5 /* LeitorRSSAppDelegate.h */,
+				62054D90144A4398009EC2B5 /* LeitorRSSAppDelegate.m */,
+				62054D92144A4398009EC2B5 /* LeitorRSS.xcdatamodeld */,
+				62054D95144A4398009EC2B5 /* iPhone */,
+				62054D9C144A4398009EC2B5 /* iPad */,
+				62054D87144A4398009EC2B5 /* Supporting Files */,
+			);
+			path = LeitorRSS;
+			sourceTree = "<group>";
+		};
+		62054D87144A4398009EC2B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62E923D71458E10A005E02C3 /* Default.png */,
+				62E923D81458E10A005E02C3 /* Default@2x.png */,
+				62E923D31458E0B9005E02C3 /* Icon.png */,
+				62E923D41458E0B9005E02C3 /* Icon@2x.png */,
+				62E923CA1458DED8005E02C3 /* tab_novidades.png */,
+				62E923CB1458DED8005E02C3 /* tab_novidades@2x.png */,
+				62E923CC1458DED8005E02C3 /* tab_rss.png */,
+				62E923CD1458DED8005E02C3 /* tab_rss@2x.png */,
+				62054D88144A4398009EC2B5 /* LeitorRSS-Info.plist */,
+				62054D89144A4398009EC2B5 /* InfoPlist.strings */,
+				62054D8C144A4398009EC2B5 /* main.m */,
+				62054D8E144A4398009EC2B5 /* LeitorRSS-Prefix.pch */,
+				62054DCA144A660D009EC2B5 /* postagem.css */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62054D95144A4398009EC2B5 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				62054D96144A4398009EC2B5 /* LeitorRSSAppDelegate_iPhone.h */,
+				62054D97144A4398009EC2B5 /* LeitorRSSAppDelegate_iPhone.m */,
+				62054D99144A4398009EC2B5 /* MainWindow_iPhone.xib */,
+				62054DB5144A574B009EC2B5 /* EditFeeds.h */,
+				62054DB6144A574B009EC2B5 /* EditFeeds.m */,
+				62054DB7144A574B009EC2B5 /* EditFeeds.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		62054D9C144A4398009EC2B5 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				62054D9D144A4398009EC2B5 /* LeitorRSSAppDelegate_iPad.h */,
+				62054D9E144A4398009EC2B5 /* LeitorRSSAppDelegate_iPad.m */,
+				62054DA0144A4398009EC2B5 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		62054DB1144A47B4009EC2B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				62054DBF144A5DE4009EC2B5 /* FeedsController.h */,
+				62054DC0144A5DE4009EC2B5 /* FeedsController.m */,
+				62054DAB144A460D009EC2B5 /* Urls.h */,
+				62054DAC144A460D009EC2B5 /* Urls.m */,
+				62054DA8144A45F8009EC2B5 /* Posts.h */,
+				62054DAE144A47A3009EC2B5 /* FeedPosts.h */,
+				62054DAF144A47A3009EC2B5 /* FeedPosts.m */,
+				62054DA9144A45F8009EC2B5 /* Posts.m */,
+				62054DB2144A4955009EC2B5 /* XMLParser.h */,
+				62054DB3144A4955009EC2B5 /* XMLParser.m */,
+				62054DC2144A61CF009EC2B5 /* PostsController.h */,
+				62054DC3144A61CF009EC2B5 /* PostsController.m */,
+				62054DCC144A6723009EC2B5 /* Novidades.h */,
+				62054DCD144A6723009EC2B5 /* Novidades.m */,
+				62054DC5144A645D009EC2B5 /* Postagem.h */,
+				62054DC6144A645D009EC2B5 /* Postagem.m */,
+				62054DC7144A645D009EC2B5 /* Postagem.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62054D79144A4398009EC2B5 /* LeitorRSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62054DA5144A4398009EC2B5 /* Build configuration list for PBXNativeTarget "LeitorRSS" */;
+			buildPhases = (
+				62054D76144A4398009EC2B5 /* Sources */,
+				62054D77144A4398009EC2B5 /* Frameworks */,
+				62054D78144A4398009EC2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeitorRSS;
+			productName = LeitorRSS;
+			productReference = 62054D7A144A4398009EC2B5 /* LeitorRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62054D71144A4398009EC2B5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 62054D74144A4398009EC2B5 /* Build configuration list for PBXProject "LeitorRSS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62054D6F144A4398009EC2B5;
+			productRefGroup = 62054D7B144A4398009EC2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62054D79144A4398009EC2B5 /* LeitorRSS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62054D78144A4398009EC2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62054D8B144A4398009EC2B5 /* InfoPlist.strings in Resources */,
+				62054D9B144A4398009EC2B5 /* MainWindow_iPhone.xib in Resources */,
+				62054DA2144A4398009EC2B5 /* MainWindow_iPad.xib in Resources */,
+				62054DB9144A574B009EC2B5 /* EditFeeds.xib in Resources */,
+				62054DC9144A645D009EC2B5 /* Postagem.xib in Resources */,
+				62054DCB144A660D009EC2B5 /* postagem.css in Resources */,
+				62E923CE1458DED8005E02C3 /* tab_novidades.png in Resources */,
+				62E923CF1458DED8005E02C3 /* tab_novidades@2x.png in Resources */,
+				62E923D01458DED8005E02C3 /* tab_rss.png in Resources */,
+				62E923D11458DED8005E02C3 /* tab_rss@2x.png in Resources */,
+				62E923D51458E0B9005E02C3 /* Icon.png in Resources */,
+				62E923D61458E0B9005E02C3 /* Icon@2x.png in Resources */,
+				62E923D91458E10A005E02C3 /* Default.png in Resources */,
+				62E923DA1458E10A005E02C3 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62054D76144A4398009EC2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62054D8D144A4398009EC2B5 /* main.m in Sources */,
+				62054D91144A4398009EC2B5 /* LeitorRSSAppDelegate.m in Sources */,
+				62054D94144A4398009EC2B5 /* LeitorRSS.xcdatamodeld in Sources */,
+				62054D98144A4398009EC2B5 /* LeitorRSSAppDelegate_iPhone.m in Sources */,
+				62054D9F144A4398009EC2B5 /* LeitorRSSAppDelegate_iPad.m in Sources */,
+				62054DAA144A45F8009EC2B5 /* Posts.m in Sources */,
+				62054DAD144A460D009EC2B5 /* Urls.m in Sources */,
+				62054DB0144A47A3009EC2B5 /* FeedPosts.m in Sources */,
+				62054DB4144A4955009EC2B5 /* XMLParser.m in Sources */,
+				62054DB8144A574B009EC2B5 /* EditFeeds.m in Sources */,
+				62054DC1144A5DE4009EC2B5 /* FeedsController.m in Sources */,
+				62054DC4144A61CF009EC2B5 /* PostsController.m in Sources */,
+				62054DC8144A645D009EC2B5 /* Postagem.m in Sources */,
+				62054DCE144A6724009EC2B5 /* Novidades.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62054D89144A4398009EC2B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62054D8A144A4398009EC2B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62054D99144A4398009EC2B5 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62054D9A144A4398009EC2B5 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		62054DA0144A4398009EC2B5 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62054DA1144A4398009EC2B5 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62054DA3144A4398009EC2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62054DA4144A4398009EC2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62054DA6144A4398009EC2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeitorRSS/LeitorRSS-Prefix.pch";
+				INFOPLIST_FILE = "LeitorRSS/LeitorRSS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62054DA7144A4398009EC2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeitorRSS/LeitorRSS-Prefix.pch";
+				INFOPLIST_FILE = "LeitorRSS/LeitorRSS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62054D74144A4398009EC2B5 /* Build configuration list for PBXProject "LeitorRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62054DA3144A4398009EC2B5 /* Debug */,
+				62054DA4144A4398009EC2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62054DA5144A4398009EC2B5 /* Build configuration list for PBXNativeTarget "LeitorRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62054DA6144A4398009EC2B5 /* Debug */,
+				62054DA7144A4398009EC2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62054D92144A4398009EC2B5 /* LeitorRSS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62054D93144A4398009EC2B5 /* LeitorRSS.xcdatamodel */,
+			);
+			currentVersion = 62054D93144A4398009EC2B5 /* LeitorRSS.xcdatamodel */;
+			path = LeitorRSS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62054D71144A4398009EC2B5 /* Project object */;
+}

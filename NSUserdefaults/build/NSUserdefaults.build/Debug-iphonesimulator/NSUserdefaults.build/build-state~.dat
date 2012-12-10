@@ -1,0 +1,263 @@
+TNSUserdefaults
+v7
+r0
+t276838147.314249
+cCheck dependencies
+cProcessInfoPlistFile /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/Info.plist NSUserdefaults-Info.plist
+cCompileXIB /Users/MatheusBrum/Desktop/NSUserdefaults/MainWindow.xib
+cCompileXIB /Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaultsViewController.xib
+cProcessPCH /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch.gch NSUserdefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/main.o /Users/MatheusBrum/Desktop/NSUserdefaults/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsAppDelegate.o /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsViewController.o /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults normal i386
+cGenerateDSYMFile /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app.dSYM /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults
+cTouch /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
+c000000004AAC665500000000000000EE
+t1252812373
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A821911000000000026EE30
+t1250040081
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A765094000000000027E880
+t1249267860
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7650820000000000001355
+t1249267842
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E970000000000000788
+t1249668759
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6F5900000000016721E0
+t1249668953
+s23536096
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.h
+c000000004ACFFEF1000000000000020A
+t1255145201
+s522
+i<UIKit/UIKit.h>
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.m
+c000000004ACFFEF1000000000000028E
+t1255145201
+s654
+i"NSUserdefaultsAppDelegate.h"
+i"NSUserdefaultsViewController.h"
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.h
+c000000004ACFFF7E00000000000001AD
+t1255145342
+s429
+i<UIKit/UIKit.h>
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m
+c000000004ACFFEF100000000000005D4
+t1255145201
+s1492
+i"NSUserdefaultsViewController.h"
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/MainWindow.xib
+c000000004ACFFEF1000000000000249B
+t1255145201
+s9371
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaultsViewController.xib
+c000000004ACFFEF100000000000018F7
+t1255145201
+s6391
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaults_Prefix.pch
+c000000004ACFFEF100000000000000C5
+t1255145201
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app
+t1255145347
+s238
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app.dSYM
+t1255145347
+s102
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/Info.plist
+t1255145346
+s590
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/MainWindow.nib
+t1255145346
+s1118
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults
+t1255145347
+s19624
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaultsViewController.nib
+t1255145346
+s800
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/PkgInfo
+t1255145346
+s8
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaults.LinkFileList
+c000000004ACFFF8200000000000001CE
+t1255145346
+s462
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsAppDelegate.o
+t1255145347
+s38288
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsViewController.o
+t1255145347
+s30364
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/main.o
+t1255145347
+s5948
+
+N/Users/MatheusBrum/Desktop/NSUserdefaults/main.m
+c000000004ACFFEF10000000000000171
+t1255145201
+s369
+i<UIKit/UIKit.h>
+
+N/var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch.gch
+t1255145346
+s13034960
+
+NNSUserdefaults-Info.plist
+c000000004ACFFEF1000000000000038D
+t1255145201
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies276838146#276838146#0(0"0(0#1#0"2416090432#0"0#
+
+CCompileC build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsAppDelegate.o /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276838147.100949
+e276838147.223022
+r1
+xCompileC
+xbuild/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsAppDelegate.o
+x/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.m276838147#276838147#0(0"0(0#0#77"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.m2416090432#2080"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-generated-files.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-project-headers.hmap -F/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources -include /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch -c /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsAppDelegate.m -o /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsAppDelegate.o0#
+
+CCompileC build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsViewController.o /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276838147.161454
+e276838147.240033
+r1
+xCompileC
+xbuild/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsViewController.o
+x/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: property 'label' requires method '-label' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: property 'label' requires the method 'setLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: incomplete implementation of class 'NSUserdefaultsViewController'
+o/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-salvar' not found
+o/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-menos' not found
+o/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-mais' not found
+o/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-atualizar' not found
+lSLF07#2@88"Compile /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838147#276838147#0(1137"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: property 'label' requires method '-label' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: property 'label' requires the method 'setLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: incomplete implementation of class 'NSUserdefaultsViewController'/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-salvar' not found/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-menos' not found/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-mais' not found/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m:65: warning: method definition for '-atualizar' not found7(22@118"Property 'label' requires method '-label' to be defined - use @synthesize, @dynamic or provide a method implementation276838147#0#213#0(6@80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838001#65#0#65#0#0"0(22@125"Property 'label' requires the method 'setLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation276838147#213#220#0(6@80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838001#65#0#65#0#0"0(22@65"Incomplete implementation of class 'NSUserdefaultsViewController'276838147#433#160#0(6@80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838001#65#0#65#0#38"incomplete implementation of class '*'0(22@41"Method definition for '-salvar' not found276838147#593#136#0(6@80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838001#65#0#65#0#35"method definition for '*' not found0(22@40"Method definition for '-menos' not found276838147#729#135#0(6@80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838001#65#0#65#0#35"method definition for '*' not found0(22@39"Method definition for '-mais' not found276838147#864#134#0(6@80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838001#65#0#65#0#35"method definition for '*' not found0(22@44"Method definition for '-atualizar' not found276838147#998#139#0(6@80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m276838001#65#0#65#0#35"method definition for '*' not found0(0#0#80"/Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m2416090432#2086"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-generated-files.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-project-headers.hmap -F/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources -include /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch -c /Users/MatheusBrum/Desktop/NSUserdefaults/Classes/NSUserdefaultsViewController.m -o /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaultsViewController.o0#
+
+CCompileC build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/main.o /Users/MatheusBrum/Desktop/NSUserdefaults/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276838147.099697
+e276838147.161258
+r1
+xCompileC
+xbuild/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/main.o
+x/Users/MatheusBrum/Desktop/NSUserdefaults/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/MatheusBrum/Desktop/NSUserdefaults/main.m276838147#276838147#0(0"0(0#0#48"/Users/MatheusBrum/Desktop/NSUserdefaults/main.m2416090432#2030"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-generated-files.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-project-headers.hmap -F/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources -include /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch -c /Users/MatheusBrum/Desktop/NSUserdefaults/main.m -o /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/MatheusBrum/Desktop/NSUserdefaults/MainWindow.xib
+s276838146.147816
+e276838146.401868
+r1
+xCompileXIB
+x/Users/MatheusBrum/Desktop/NSUserdefaults/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib276838146#276838146#0(0"0(0#0#56"/Users/MatheusBrum/Desktop/NSUserdefaults/MainWindow.xib4854736#496"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/MainWindow.nib /Users/MatheusBrum/Desktop/NSUserdefaults/MainWindow.xib0#
+
+CCompileXIB /Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaultsViewController.xib
+s276838146.148677
+e276838146.423157
+r1
+xCompileXIB
+x/Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaultsViewController.xib
+lSLF07#2@43"CompileXIB NSUserdefaultsViewController.xib276838146#276838146#0(0"0(0#0#74"/Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaultsViewController.xib2416090432#532"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaultsViewController.nib /Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaultsViewController.xib0#
+
+CGenerateDSYMFile /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app.dSYM /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults
+s276838147.299223
+e276838147.311880
+r1
+xGenerateDSYMFile
+x/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app.dSYM
+x/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/NSUserdefaults.app.dSYM build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults276838147#276838147#0(0"0(0#0#103"/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults2416090432#413"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults -o /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app.dSYM0#
+
+CLd /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults normal i386
+s276838147.240113
+e276838147.299131
+r1
+xLd
+x/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults
+xnormal
+xi386
+lSLF07#2@108"Link /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults276838147#276838147#0(0"0(0#0#0"2416090432#912"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator -F/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator -filelist /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/Objects-normal/i386/NSUserdefaults.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/NSUserdefaults0#
+
+CProcessInfoPlistFile /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/Info.plist NSUserdefaults-Info.plist
+s276838146.143615
+e276838146.147537
+r1
+xProcessInfoPlistFile
+x/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/Info.plist
+xNSUserdefaults-Info.plist
+lSLF07#2@33"Process NSUserdefaults-Info.plist276838146#276838146#0(0"0(0#0#67"/Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaults-Info.plist2416090432#509"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NSUserdefaults-Info.plist -genpkginfo /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app/Info.plist0#
+
+CProcessPCH /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch.gch NSUserdefaults_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s276838146.423333
+e276838147.099572
+r1
+xProcessPCH
+x/var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch.gch
+xNSUserdefaults_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile NSUserdefaults_Prefix.pch276838146#276838147#0(0"0(0#0#67"/Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaults_Prefix.pch2416090432#1912"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-generated-files.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-own-target-headers.hmap -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-all-target-headers.hmap -iquote /Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/NSUserdefaults-project-headers.hmap -F/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/include -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources/i386 -I/Users/MatheusBrum/Desktop/NSUserdefaults/build/NSUserdefaults.build/Debug-iphonesimulator/NSUserdefaults.build/DerivedSources -c /Users/MatheusBrum/Desktop/NSUserdefaults/NSUserdefaults_Prefix.pch -o /var/folders/i7/i7PeuHOKHby2ot+nws8Yq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSUserdefaults_Prefix-glubijhsrlpovqfosmswpgfivpjm/NSUserdefaults_Prefix.pch.gch0#
+
+CTouch /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app
+s276838147.311967
+e276838147.314224
+r1
+xTouch
+x/Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app
+lSLF07#2@94"Touch /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app276838147#276838147#0(0"0(0#0#0"2416090432#291"    cd /Users/MatheusBrum/Desktop/NSUserdefaults    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/MatheusBrum/Desktop/NSUserdefaults/build/Debug-iphonesimulator/NSUserdefaults.app0#
+
